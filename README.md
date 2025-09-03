@@ -29,6 +29,23 @@ Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, 
 
 ---
 
+## Table of Contents
+- [Objectives](#objectives)
+- [Tools & Technologies](#tools--technologies)
+- [Dataset Overview](#dataset-overview)
+- [Data Preprocessing & Feature Engineering](#data-preprocessing--feature-engineering)
+- [Post-Processing Dataset Overview (24 Features)](#post-processing-dataset-overview-24-features)
+- [Modeling Approach](#modeling-approach)
+- [Outcome & Insights](#outcome--insights)
+- [Feature Importance Trends (2021–2023)](#feature-importance-trends-2021-2023)
+- [High-Level Insights on Feature Importance (2021–2023)](#high-level-insights-on-feature-importance-2021-2023)
+- [Business Impact](#business-impact)
+- [Overall Trend Summary](#overall-trend-summary)
+- [Conclusions & Insights](#conclusions--insights)
+- [Future Work & Applications](#future-work--applications)
+
+---
+
 ## Objectives
 1. **Identify Key Drivers**: Quantify which property and host features most strongly influence reservation days.
 2. **Year-over-Year Comparison**: Track how feature importance changed between 2021, 2022, and 2023, reflecting post-pandemic market shifts.
@@ -205,7 +222,7 @@ Decision tree plots for 2021, 2022, and 2023
 
 ---
 
-### Feature Importance Analysis Using Decision Trees
+## Feature Importance Analysis Using Decision Trees
 
 To identify which **listing and host features** most influence reservation days, **Decision Tree models** were trained using Python and scikit-learn. These models not only provide predictive insights but also generate interpretable **rankings of feature importance**, offering **actionable guidance** for hosts and platform managers.
 
