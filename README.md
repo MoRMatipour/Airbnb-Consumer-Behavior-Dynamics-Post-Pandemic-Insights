@@ -41,8 +41,7 @@ Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, 
 - [Outcome Feature Importance Trends 2021–2023](#outcome-feature-importance-trends)
 - [High Level Insights on Feature Importance 2021–2023](#high-level-insights-on-feature-importance)
 - [Business Impact](#business-impact)  
-- [Overall Trend Summary](#overall-trend-summary)  
-- [Conclusions & Insights](#conclusions--insights)  
+- [Overall Trends and Key Insights](#Overall-Trends-and-Key-Insights)  
 - [Future Work & Applications](#future-work--applications)
 
 ---
@@ -370,18 +369,21 @@ Displays a single column per feature, representing the total combined importance
 
 ---
 
-## Overall Trend Summary
-- **2021:** Price and host-related trust signals dominated consumer decision-making.
+## Overall Trends and Key Insights
+
+### Yearly Trends
+- **2021:** Price and host-related trust signals dominated consumer decision-making. Flexible and amenity-rich listings attracted higher bookings as travel resumed post-COVID.
 - **2022:** Review-based reputation metrics gained prominence, rivaling the importance of price.
 - **2023:** Guest experience attributes (cleanliness, check-in experience, value, accuracy) nearly equaled price in influence, signaling a shift from affordability-driven to quality-driven decisions.
-- **Additional Notes:** Amenities (WiFi, bathtub) emerged as niche differentiators, while trust signals (verification, profile picture) have become standardized.
 
----
+### Additional Observations
+- Amenities such as WiFi and bathtubs emerged as niche differentiators.
+- Trust signals like profile verification and profile pictures have become standardized and less influential.
 
-## Conclusions & Insights
-- **Core Drivers Identified:** Pricing, location, and host reliability remain crucial, but their relative influence varies with market conditions.
-- **Pandemic Effects:** In 2021, flexible and amenity-rich listings attracted higher bookings as travel resumed post-COVID.
-- **Post-Pandemic Preferences:** By 2023, travelers increasingly prioritized responsiveness, high-quality reviews, and overall experience, demonstrating evolving guest expectations.
+### Core Insights
+- **Key Drivers:** Pricing, location, and host reliability remain crucial, though their influence changes with market conditions.
+- **Post-Pandemic Preferences:** By 2023, travelers increasingly prioritized responsiveness, high-quality reviews, and overall experience, showing an evolution in guest expectations.
+
 
 ---
 
