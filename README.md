@@ -39,7 +39,7 @@ Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, 
 - [Outcome & Insights](#outcome--insights)  
 - [Feature Importance Analysis Using Decision Trees](#feature-importance-analysis-using-decision-trees)  
 - [Outcome Feature Importance Trends 2021–2023](#outcome-feature-importance-trends-2021-2023)
-- [High-Level Insights on Feature Importance 2021–2023](#high-level-insights-on-feature-importance-2021-2023)
+- [High Level Insights on Feature Importance 2021–2023](#high-level-insights-on-feature-importance-2021-2023)
 - [Business Impact](#business-impact)  
 - [Overall Trend Summary](#overall-trend-summary)  
 - [Conclusions & Insights](#conclusions--insights)  
