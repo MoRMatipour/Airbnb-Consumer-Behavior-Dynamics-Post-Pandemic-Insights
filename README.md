@@ -38,8 +38,8 @@ Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, 
 - [Modeling Approach](#modeling-approach)  
 - [Outcome & Insights](#outcome--insights)  
 - [Feature Importance Analysis Using Decision Trees](#feature-importance-analysis-using-decision-trees)  
-- [Outcome Feature Importance Trends 2021–2023](#outcome-feature-importance-trends-2021-2023)
-- [High Level Insights on Feature Importance 2021–2023](#high-level-insights-on-feature-importance-2021-2023)
+- [Outcome Feature Importance Trends 2021–2023](#outcome-feature-importance-trends)
+- [High Level Insights on Feature Importance 2021–2023](#high-level-insights-on-feature-importance)
 - [Business Impact](#business-impact)  
 - [Overall Trend Summary](#overall-trend-summary)  
 - [Conclusions & Insights](#conclusions--insights)  
@@ -272,7 +272,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-## Outcome Feature Importance Trends (2021–2023)
+## Outcome Feature Importance Trends 
 
 Using the feature importance extraction method, we obtained **three separate tables of measures** (one for each year: 2021, 2022, 2023).  
 I then **blended these tables manually into a single consolidated table** to make insights clearer and enable easier comparison across years, as well as for creating comparative charts.
@@ -317,7 +317,7 @@ Displays a single column per feature, representing the total combined importance
 
 ---
 
-## High Level Insights on Feature Importance (2021–2023)
+## High Level Insights on Feature Importance 
 
 ### 1. Price Dominance with Slight Decline
 - Importance over time: 2021: 14.9% → 2022: 11.1% → 2023: 12.2%
