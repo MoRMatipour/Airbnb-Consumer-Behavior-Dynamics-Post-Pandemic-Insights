@@ -197,6 +197,13 @@ tree.plot_tree(dtree, feature_names=features, filled=True, rounded=True, fontsiz
 plt.savefig('airbnb_decision_tree.png', bbox_inches='tight')
 plt.show()
 ```
+Decision tree plots for 2021, 2022, and 2023
+
+![2021](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/2021%20Three.png?raw=true)
+
+![2022](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/2022%20three.png?raw=true)
+
+![2023](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/2023%20tree.png?raw=true)
 
 ## Outcome & Insights
 
@@ -226,9 +233,6 @@ To identify which **listing and host features** most influence reservation days,
    - Horizontal bar charts were created to highlight the **most influential factors**, with the highest importance features displayed at the top.
    - Visualizations were **saved and incorporated** into portfolio materials for clear reporting and stakeholder insights.
 
----
-
-### Python Implementation
 
 ```python
 import pandas as pd
@@ -259,6 +263,10 @@ plt.show()
 
 ## Outcome: Feature Importance Trends (2021–2023)
 
+Using the feature importance extraction method, we obtained **three separate tables of measures** (one for each year: 2021, 2022, 2023).  
+I then **blended these tables manually into a single consolidated table** to make insights clearer and enable easier comparison across years, as well as for creating comparative charts.
+
+
 | Feature | 2021 (%) | 2022 (%) | 2023 (%) |
 |---------|----------|----------|----------|
 | Price | 14.89 | 11.05 | 12.20 |
@@ -284,6 +292,17 @@ plt.show()
 | WiFi | 0.33 | 0.46 | 1.22 |
 | Host has profile picture | 0.02 | 0.22 | 0.39 |
 | Pool | 0.19 | 0.07 | 0.12 |
+
+
+Clustered Column Chart
+Shows the importance of each feature across 2021, 2022, and 2023 with three columns per feature, allowing year-over-year comparison.
+
+![Clustred chart](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/Yearly%20comparison%20.png?raw=true)
+
+Stacked/Total Column Chart
+Displays a single column per feature, representing the total combined importance across all three years, highlighting which features mattered most overall.
+
+![Stacked chart](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/Total%20contribution%20across%20the%20years.png?raw=true)
 
 ---
 
