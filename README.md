@@ -1,32 +1,24 @@
 #  Airbnb Consumer Behavior Dynamics: Post-Pandemic Insights
+Data mining and machine learning project analyzing Airbnb listings (2020–2023) to uncover key factors influencing reservation days and evolving traveler preferences.
 
-##  Introduction
-This project delivers a three-year, data-driven analysis of Airbnb reservation trends to understand how consumer behavior evolved in the post-COVID-19 travel market.
+## Project Overview
+This project delivers a three-year, data-driven analysis of Airbnb reservation trends to provide a comprehensive view of how traveler behavior evolved in the post-COVID-19 market.
 
-By leveraging advanced data analytics and machine learning, I investigated which property, host, and guest experience factors most influence reservation durations across 2021, 2022, and 2023.
+By analyzing property features, host metrics, guest experience factors, and review scores, the project enables actionable insights for:
 
-The study combines technical rigor with actionable insights, making it valuable for:
-- **Hosts**: to optimize pricing, amenities, and guest experience.
-- **Platforms**: to enhance recommendation systems and marketplace performance.
-- **Businesses & Analysts**: to understand post-pandemic shifts in travel behavior.
+- **Hosts**: optimize pricing, amenities, and guest experience  
+- **Platforms**: enhance recommendation systems and marketplace performance  
+- **Businesses & Analysts**: understand post-pandemic shifts in travel behavior  
 
-This project highlights my ability to bridge technical expertise (data cleaning, feature engineering, machine learning) with business strategy development to uncover meaningful patterns in real-world datasets.
+Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, and Decision Tree modeling, combined with Power BI and Excel visualizations, I created a professional BI solution that identifies the key drivers of reservations and supports strategic, data-driven decision-making.
 
----
+**Key Findings**:  
+- **2021** → Price and host trust signals (verification, Superhost status) heavily influenced bookings  
+- **2022** → Reputation factors (guest reviews on cleanliness, accuracy, value) became critical  
+- **2023** → Guest experience (check-in ease, amenities, location) gained equal importance to price  
 
-##  Executive Summary
-This project explores how traveler priorities evolved in the Airbnb market from 2021 to 2023, reflecting the post-pandemic recovery and growing maturity of the platform.
+**Takeaway**: The Airbnb market evolved from **affordability-driven → reputation-driven → experience-driven** traveler decisions.
 
-- **Dataset**: London Airbnb listings (~24 features per year, 3 years from InsideAirbnb).
-- **Tools**: Python (`pandas`, `scikit-learn`), Power BI, Excel.
-- **Methods**: Data cleaning, feature engineering, Decision Tree modeling, feature importance analysis.
-
-### Key Findings:
-- **2021** → Price and host trust signals (verification, Superhost status) heavily influenced bookings.
-- **2022** → Reputation factors (guest reviews on cleanliness, accuracy, value) became critical.
-- **2023** → Guest experience (check-in ease, amenities, location) gained equal importance to price.
-
- **Takeaway**: The Airbnb market evolved from **affordability-driven → reputation-driven → experience-driven** traveler decisions.
 
 ---
 
@@ -36,6 +28,7 @@ This project explores how traveler priorities evolved in the Airbnb market from 
 - Bridging data analysis with strategic business impact.
 
 ---
+
 ## Objectives
 1. **Identify Key Drivers**: Quantify which property and host features most strongly influence reservation days.
 2. **Year-over-Year Comparison**: Track how feature importance changed between 2021, 2022, and 2023, reflecting post-pandemic market shifts.
