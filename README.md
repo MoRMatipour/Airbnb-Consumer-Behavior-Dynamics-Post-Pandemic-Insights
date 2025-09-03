@@ -30,18 +30,19 @@ Using Python (`pandas`, `scikit-learn`) for data cleaning, feature engineering, 
 ---
 
 ## Table of Contents
-- [Objectives](#objectives)
-- [Tools & Technologies](#tools--technologies)
-- [Dataset Overview](#dataset-overview)
-- [Data Preprocessing & Feature Engineering](#data-preprocessing--feature-engineering)
-- [Post-Processing Dataset Overview (24 Features)](#post-processing-dataset-overview-24-features)
-- [Modeling Approach](#modeling-approach)
-- [Outcome & Insights](#outcome--insights)
-- [Feature Importance Trends (2021–2023)](#feature-importance-trends-2021-2023)
-- [High-Level Insights on Feature Importance (2021–2023)](#high-level-insights-on-feature-importance-2021-2023)
-- [Business Impact](#business-impact)
-- [Overall Trend Summary](#overall-trend-summary)
-- [Conclusions & Insights](#conclusions--insights)
+- [Objectives](#objectives)  
+- [Tools & Technologies](#tools--technologies)  
+- [Dataset Overview](#dataset-overview)  
+- [Data Preprocessing & Feature Engineering](#data-preprocessing--feature-engineering)   
+- [Post-Processing Dataset Overview (24 Features)](#post-processing-dataset-overview-24-features)   
+- [Modeling Approach](#modeling-approach)  
+- [Outcome & Insights](#outcome--insights)  
+- [Feature Importance Analysis Using Decision Trees](#feature-importance-analysis-using-decision-trees)  
+- [Outcome: Feature Importance Trends (2021–2023)](#outcome-feature-importance-trends-2021-2023)  
+- [High-Level Insights on Feature Importance (2021–2023)](#high-level-insights-on-feature-importance-2021-2023)  
+- [Business Impact](#business-impact)  
+- [Overall Trend Summary](#overall-trend-summary)  
+- [Conclusions & Insights](#conclusions--insights)  
 - [Future Work & Applications](#future-work--applications)
 
 ---
@@ -215,7 +216,7 @@ Decision tree plots for 2021, 2022, and 2023
 
 ![2023](https://github.com/MoRMatipour/Airbnb-Consumer-Behavior-Dynamics-Post-Pandemic-Insights/blob/main/Charts%20and%20Decision%20Tree/2023%20tree.png?raw=true)
 
-## Outcome & Insights
+### Outcome & Insights
 
 - Three **Decision Tree models** were trained, one for each year (2021–2023), enabling direct comparison of **feature importance trends**.
 - This workflow forms the **analytical backbone** of the project, providing both **quantitative insights** and **visual evidence** of how guest behavior and listing performance evolved in the **post-pandemic Airbnb market**.
